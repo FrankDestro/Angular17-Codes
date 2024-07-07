@@ -1,0 +1,22 @@
+.card {
+    
+    &__item {
+        padding: 10px;
+    }
+
+    &__button {
+        font-size: 16px;
+        text-align: center;
+        margin-top: 10px;
+        border-radius: 25px;
+        background-color: white;
+        cursor: pointer;
+        font-weight: bold;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #f05a3f;
+            color: white;
+        }
+    }
+}
