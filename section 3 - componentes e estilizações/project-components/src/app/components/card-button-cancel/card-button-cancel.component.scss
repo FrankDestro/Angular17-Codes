@@ -1,0 +1,20 @@
+@import "variables";
+
+.card__item {
+    padding: 10px;
+}
+
+.card__button__cancel {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 25px;
+    background-color: $bgColor;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.card__button__cancel:hover {
+    background-color: #a71010;
+    color: white;
+}
