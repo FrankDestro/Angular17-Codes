@@ -1,0 +1,26 @@
+<input
+  id="meu-input"
+  [value]="inputText"
+  [type]="inputType"
+  [disabled]="isDisabled"
+/>
+
+<br />
+<br />
+
+<div>Habilitar input</div>
+<button (click)="enableInput()">Habilitar</button>
+<button (click)="disableInput()">Desabilitar</button>
+
+<br />
+<br />
+
+<div>Mudar Type</div>
+<button (click)="setPasswordTypeInput()">Senha</button>
+<button (click)="setTextTypeInput()">Texto</button>
+
+<br />
+<br />
+
+<div>Mudar Type</div>
+<button (click)="logInputText()">Log</button>
